@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="com.Customer" table="Customer">
+		<id name="userId">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="password"></property>
+		<property name="userName"></property>
+		<property name="userAddr"></property>
+	</class>
+</hibernate-mapping>

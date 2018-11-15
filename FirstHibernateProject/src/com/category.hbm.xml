@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="com.Category" table="Category">
+		<id name="categoryId">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="categoryName"></property>
+		<property name="categoryDesc"></property>
+	</class>
+</hibernate-mapping>
